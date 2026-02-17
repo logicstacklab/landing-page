@@ -12,16 +12,23 @@ html {
     padding: 0;
 }
 
+body {
+    font-family: Rototo, sans-serif;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 12px;
 }
 
 a {
     text-decoration-line: none;
-}
-
-body {
-    font-family: Rototo, sans-serif;
 }
 
 .illustration {
@@ -60,14 +67,8 @@ P.font-color {
     font-style: italic;
 }
 
-button   {
-    padding: 12px 36px;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: 900;
-    background-color: #3882F6;
-    color: #F9FAF8;
-}
+
+
 
 header,
 footer {
@@ -76,4 +77,36 @@ footer {
 
 .quote {
     background-color: #E5E7EB;
+}
+
+.logo-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+}
+
+.second-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+    min-height: 513px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button   {
+    padding: 10px 36px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
 }
